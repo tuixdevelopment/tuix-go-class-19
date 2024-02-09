@@ -2,6 +2,8 @@ package cards
 
 import "fmt"
 
+// ActionCard is a card that allows us to change the rules of the game.
+// sometimes action cards can make a player lose.
 type ActionCard struct {
 	Card
 	Action string
